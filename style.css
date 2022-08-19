@@ -1,0 +1,139 @@
+:root{
+    --col-primary-cyan: hsl(158, 36%, 37%);
+    --col-primary-cream: hsl(30, 38%, 92%);
+
+    --col-neutral-dblue: hsl(212, 21%, 14%);
+    --col-neutral-dgblue: hsl(228, 12%, 48%);
+    --col-neutral-white: hsl(0, 0%, 100%);
+
+    --fs-paragarph: 14px;
+
+    --ff-Mont: font-family: 'Montserrat', sans-serif;
+    --ff--Fraun: font-family: 'Fraunces', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--col-primary-cream);
+    padding: 100px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+
+}
+
+.right{
+    background: url("./images/image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 70vh;
+    
+}
+
+.left {
+    background: var(--col-neutral-white);
+    width: 40%;
+    height: 70vh;
+    align-items: center;
+   padding-left: 5%;
+   border-radius: 0 12px 12px 0px;
+}
+
+
+.top {
+    color: var(--col-neutral-dgblue);
+    font-size: 15px;
+     letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 60px;
+    padding-top: 10px;
+}
+
+h1 {
+    width: 50%;
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+.dis{
+    font-size: 15px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--col-neutral-dgblue);
+    line-height: 20px;
+    padding-top: 20px;
+}
+
+.price{
+    display: flex;
+    padding-right: 50%;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p{
+    padding-left: 70px;
+    color: var(--col-neutral-dgblue);
+    font-size: 15px;
+}
+
+
+
+
+  
+  .addtocart{
+    display:block;
+    padding:0.5em 1em 0.5em 1em;
+    border-radius:12px;
+    border:none;
+    font-size:1em;
+    position:relative;
+    background:#3d8168;
+    cursor:pointer;
+    height:3em;
+    width:20em;
+    overflow:hidden;
+    transition:transform 0.1s;
+    z-index:1;
+  }
+ 
+  .pretext{
+    color:#fff;
+    background:#3d8168;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  i{
+    margin-right:10px;
+  }
+  .done{
+    background:#be2edd;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    transition:transform 0.3s ease;
+  
+    transform:translate(-110%) skew(-40deg);
+  }
+
+   
